@@ -1,0 +1,23 @@
+{
+    "name": "jepi/model",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Jepi Humet",
+            "email": "jepihumet@gmail.com",
+            "homepage": "http://jepihumet.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "jepi/exception": "*",
+        "jepi/config": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jepi\\Model\\": "src"
+        }
+    }
+}
